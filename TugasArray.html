@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background:wheat repeat center left;
+}
+        p {
+            color : wheat;
+            background-color: chocolate;
+            width: 190px;
+        }
+        table {
+            color:black;
+            background-color: chocolate
+        }
+        button {
+            color:black;
+            background-color: white(48, 214, 103);
+        }
+</style>
+
+
+<center>
+    <h1>TUGAS</h1>
+</center>
+<h3>Pertanyaan</h3>
+<h4>1. Buatlah Perulangan menggunakan for 5,4,3,2,1</h4>
+<h3>Jawaban⬇⬇:</h3> 
+<script>
+    for (i = 5; i > 0; i--){
+        document.write("PPLG. " + i +"<br />");
+    }
+</script>
+<h4>caranya: </h4>
+<Table border="1" cellpadding="16">
+    <td> for (i = 5; i > 0; i--){
+        document.write("PPLG. " + i + "<*br + />");}</td>
+</Table>
+<h4>2. Buatlah Perulangan menggunakan foreach Untuk Menampilkan seluruh data dari arary list siswa </h4>
+<h4>Object : 
+    <br>       
+    -Nama
+    <br>
+    -Kelas
+    <br>
+    -Umur
+    <br>
+    -Nilai
+</h4>
+<h3>Jawaban:⬇⬇</h3> 
+<script>
+    var list_siswa = [
+        {
+        nama : "Uswatun Hasanah",
+        kelas : "10",
+        umur : 15,
+        nilai : 999
+        },
+        {
+        nama : "Todoroki Shouto",
+        kelas : "10",
+        umur : 16,
+        nilai : 99
+        },
+        {
+        nama : "Lubbock",
+        kelas : "12",
+        umur : 17,
+        nilai : 98
+        },
+        {
+        nama : "Kaneki",
+        kelas : "12",
+        umur : 17,
+        nilai : 99
+        },
+        {
+        nama : "Lionet souma",
+        kelas : "10",
+        umur : 14,
+        nilai : 78
+        },
+        {
+        nama : "louwies",
+        kelas : "10",
+        umur : 15,
+        nilai : 97
+        }
+        
+        
+
+
+    ];
+    document.write("<h1>List Nama Siswa</h1>");
+    list_siswa.forEach( object => {
+            document.write("<br> Nama: " + object.nama + "<br>");
+            document.write("<br> Kelas: " + object.kelas + "<br>");
+            document.write("<br> Umur: " + object.umur + "<br>");
+            document.write("<br> Nilai: " + object.nilai + "<br>");
+
+        });
+</script>
+<h4>caranya: </h4>
+<Table border="1" cellpadding="16">
+    <td><h4>Langkah Pertama Membuat seperti yang di bawah</h4>
+        var list_siswa = [ <br>
+        {
+        nama : "Uswatun Hasanah",
+        kelas : "10",
+        umur : 15,
+        nilai : 999
+        },
+        <br>
+        {
+        nama : "Todoroki Shouto",
+        kelas : "10",
+        umur : 16,
+        nilai : 99
+        },
+        <br>
+        {
+        nama : "Lubbock",
+        kelas : "12",
+        umur : 17,
+        nilai : 98
+        },
+        <br>
+        {
+        nama : "Kaneki",
+        kelas : "12",
+        umur : 17,
+        nilai : 99
+        },
+        <br>
+        {
+        nama : "Lionet souma",
+        kelas : "10",
+        umur : 14,
+        nilai : 78
+        },
+        <br>
+        {
+        nama : "louwies",
+        kelas : "10",
+        umur : 15,
+        nilai : 97
+        }
+        <br>
+        
+        
+
+
+    ];
+    <br>
+    document.write("* lalu tambahkan➡<*h1>List Nama Siswa<*/h1>");⬅ lalu gunakan ini
+    <br> <h4>Lalu selanjutnya membuat perulangan menggunakan foreach</h4>
+    <br>
+    list_siswa.forEach( object => {
+            document.write("<*br> Nama: " + object.nama + "<*br>");
+            <br>
+            document.write("<*br> Kelas: " + object.kelas + "<*br>");
+            <br>
+            document.write("<*br> Umur: " + object.umur + "<*br>");
+            <br>
+            document.write("<*br> Nilai: " + object.nilai + "<*br>");
+            <br>
+        });</td>
+<h3>perhatian!! <br>
+    saat memulai proses,mohon untuk menghapus tanda/simbol (*) yang ada didalam br,karna nanti proses nya tidak akan berjalan jika ada tanda/simbol (*)
+</h3>
+</Table>
+
+    <h2>Apakah Ini Membantu?</h2>
+    <select name="Apakah Ini Membantu?">
+        <option value="TIdak">tidak</option>
+        <option value="Membantu">membantu</option>
+        </select>
+<br>
+    <h4>Berikan Alasan Anda</h4>
+      <td><textarea name=""></textarea></td>
+
+<h3>terimakasih kepada para guru yang telah melihat tugas saya❤❤</h3>
+    
+
+</html>
